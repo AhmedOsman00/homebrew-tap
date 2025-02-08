@@ -24,7 +24,9 @@ brew install AhmedOsman00/tap/arrow
 
 To upgrade all installed tools:
 
+```bash
 brew upgrade
+```
 
 🔄 Updating Formulae
 
