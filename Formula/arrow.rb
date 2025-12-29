@@ -3,9 +3,9 @@ class Arrow < Formula
   homepage "https://github.com/AhmedOsman00/arrow-generator"
 
   # These values will be replaced by brew bump-formula-pr
-  url "https://example.com/arrow"
-  version "0.0.0"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  url "https://github.com/AhmedOsman00/arrow-generator/releases/download/v1.0.0/arrow"
+  version "1.0.0"
+  sha256 "d84cb9e7761a5bc63ce135e9b1b043539eb2e6bd71fdb6055f1d426e14b21912"
 
   def install
     bin.install "arrow"
