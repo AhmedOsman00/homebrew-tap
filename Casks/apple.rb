@@ -33,9 +33,10 @@ cask "apple" do
 
   binary "apple"
 
-  postflight do
-    if OS.mac?
-      system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{staged_path}/apple"]
+  # The binary is not notarized, so Gatekeeper would quarantine it on first run.
+  postflight_steps do
+    on_macos do
+      run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "apple"], chdir: "."
     end
   end
 end
