@@ -6,25 +6,25 @@ cask "apple" do
     end
   end
 
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      sha256 "a89836d5eacd9c8479d9d3af9007dc5dccfe7817e8026937bcca0178b92a1c22"
+      sha256 "2cd305b066b83d919572c2bb9d6edd72bd0e9f19d71aff5c704bc04530293a37"
       url "https://github.com/AhmedOsman00/terraform-provider-apple/releases/download/cli-v#{version}/apple_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b60ae9300e353b3bd27c5455d7011815f5a9a81f2a87a0427a07916a3cb3a186"
+      sha256 "9a6909119e3f68d6adb181938044ff7a89125f80ab504ea8c7a366b0919472f1"
       url "https://github.com/AhmedOsman00/terraform-provider-apple/releases/download/cli-v#{version}/apple_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "a44fb38528e4f11a1cb4ae4eff50602239a5a8ea1c7e3ae30fc778685342c398"
+      sha256 "d81b8bf7146f052de69f4cc6065fc82ea7dd268ef0cf31b302e359640632302c"
       url "https://github.com/AhmedOsman00/terraform-provider-apple/releases/download/cli-v#{version}/apple_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "575fac805e4ccec17a6c6c2b979be0ea8dedeca38c55c3d94888398792d15add"
+      sha256 "321689abd60a563ff9193be7256126eb0fbe22ab7d9371ec3404cd093c142bf2"
       url "https://github.com/AhmedOsman00/terraform-provider-apple/releases/download/cli-v#{version}/apple_#{version}_linux_amd64.tar.gz"
     end
   end
