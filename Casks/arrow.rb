@@ -1,11 +1,11 @@
 cask "arrow" do
-  version "2.0.0"
-  sha256 "8024bf43fb28da0b00cb395fcdd2caff598dd3ec6a764a372e96417d40f2d494"
+  version "2.1.0"
+  sha256 "5026146ececf5b90030701a1b0305d8ea3eb374c6767f8fbb7b34abc8e48d90f"
 
-  url "https://github.com/AhmedOsman00/arrow-generator/releases/download/#{version}/arrow"
+  url "https://github.com/AhmedOsman00/arrow/releases/download/#{version}/arrow"
   name "arrow"
   desc "Generates dependency registration code for the Arrow DI library"
-  homepage "https://github.com/AhmedOsman00/arrow-generator"
+  homepage "https://github.com/AhmedOsman00/arrow/tree/main/Generator"
 
   depends_on :macos
 
